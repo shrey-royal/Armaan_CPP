@@ -1,0 +1,159 @@
+Section 1: Multiple Choice Questions
+
+1. Which of the following is the correct syntax to declare a variable in C++?
+   a) var x;
+   b) int x;
+   c) variable x;
+   d) x = int;
+
+2. The "if" statement in C++ is used for:
+   a) Looping
+   b) Error handling
+   c) Conditional execution
+   d) Function declaration
+
+3. Which of the following is NOT a valid control statement in C++?
+   a) if-else
+   b) for
+   c) while
+   d) repeat-until
+
+4. How do you access the elements of a one-dimensional array in C++?
+   a) Using parentheses ()
+   b) Using curly braces {}
+   c) Using square brackets []
+   d) Using angle brackets <>
+
+5. What is the output of the following code snippet?
+
+```cpp
+int x = 5;
+cout << "The value of x is: " << x++ << endl;
+```
+
+   a) The value of x is: 5
+   b) The value of x is: 6
+   c) The value of x is: 4
+   d) The code snippet will result in an error.
+
+6. Which of the following is the correct way to declare a two-dimensional array in C++?
+   a) int array[rows][cols];
+   b) int array(rows, cols);
+   c) int array[rows, cols];
+   d) int array(rows)(cols);
+
+7. What is the index of the first element in an array in C++?
+   a) 0
+   b) 1
+   c) -1
+   d) It depends on the size of the array.
+
+8. Which control statement is used to exit a loop prematurely in C++?
+   a) break
+   b) continue
+   c) return
+   d) exit
+
+9. Which operator is used to access the address of a variable in C++?
+   a) &
+   b) *
+   c) $
+   d) #
+
+10. Which of the following is NOT a valid data type in C++?
+    a) float
+    b) char
+    c) boolean
+    d) string
+
+Section 2: Short Answers
+
+1. Explain the difference between the if-else statement and the switch statement in C++.
+
+2. Write a C++ code snippet to find the sum of all the elements in an array.
+
+3. What is the purpose of the "for" loop in C++? Provide an example.
+
+4. What is the significance of the null character ('\0') in C++ strings?
+
+5. What is the difference between a one-dimensional array and a multidimensional array in C++?
+
+6. How do you declare and initialize a constant variable in C++?
+
+7. Explain the concept of control flow in C++.
+
+8. What is the purpose of the "do-while" loop in C++? Provide an example.
+
+9. How do you pass an array to a function in C++? Provide an example.
+
+10. Describe the process of dynamic memory allocation for arrays in C++.
+
+Section 3: Debugging Questions
+
+1. Identify and correct the error in the following code snippet:
+
+```cpp
+int x = 5;
+if (x > 0)
+  cout << "x is positive." << endl;
+else
+  cout << "x is negative." << endl;
+```
+
+2. Identify and correct the error in the following code snippet:
+
+```cpp
+int numbers[5];
+for (int i = 1; i <= 5; i++)
+  numbers[i] = i;
+```
+
+3. Identify and correct the error in the following code snippet:
+
+```cpp
+int array[3] = {1, 2, 3, 4};
+for (int i = 0; i <= 3; i++)
+  cout << array[i] << " ";
+```
+
+4. Identify and correct the error in the following code snippet:
+
+```cpp
+int n = 10;
+int sum = 0;
+for (int i = 1; i < n; i++)
+  sum += i;
+cout << "The sum is: " << sum << endl;
+```
+
+5. Identify and correct the error in the following code snippet:
+
+```cpp
+int x = 5;
+if (x = 10)
+  cout << "x is equal to 10." << endl;
+else
+  cout << "x is not equal to 10." << endl;
+```
+
+Section 4: Programming Questions
+
+1. Write a C++ program to calculate the factorial of a given number using a loop.
+
+2. Write a C++ program to find the largest element in an array.
+
+3. Write a C++ program to reverse the elements of an array.
+
+4. Write a C++ program to check if a given string is a palindrome or not.
+
+5. Write a C++ program to sort an array in ascending order.
+
+6. Write a C++ program to find the sum of the diagonal elements in a square matrix.
+
+7. Write a C++ program to count the number of vowels in a given string.
+
+8. Write a C++ program to remove duplicate elements from an array.
+
+9. Write a C++ program to find the average of all the elements in a two-dimensional array.
+
+10. Write a C++ program to check if a number is prime or not.
