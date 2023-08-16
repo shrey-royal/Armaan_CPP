@@ -78,4 +78,9 @@ Rules for creating constructors:
     4. It can have default arguments.
     5. We cannot refer to their address.
 
+Types of constructors:
+    1. Default constructor (No parameters)
+    2. Parameterized constructor (With parameters)
+    3. Copy constructor (Copy of an object)
+
 */
