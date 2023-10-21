@@ -1,0 +1,33 @@
+Inheritance: It is a mechanism in which one object acquires all the properties and behaviors of a parent object. It's used to reuse the code again and again.
+
+Terminologies:
+
+Parent Class / Super Class / Base Class: The class whose properties and methods are inherited is known as Parent Class or Super Class or Base Class.
+
+Child Class / Sub Class / Derived Class: The class that inherits the properties and methods from another class is known as Child Class or Sub Class or Derived Class.
+
+Types of Inheritances:
+    > Single Inheritance : One parent and one child class
+    > Multiple Inheritance : One child class and multiple parent classes
+    > Multilevel Inheritance : Parent class and child class and grandchild class (chain of inheritance)
+    > Hierarchical Inheritance : One parent class and multiple child classes
+    > Hybrid Inheritance : Combination of multiple and multilevel inheritance
+
+
+Access Modifiers / Specifiers are used to set the accessibility of classes, methods, and variables. There are three types of Access Modifiers / Specifiers:
+    > Public : Accessible everywhere
+    > Protected : Accessible within the class and its child classes
+    > Private (default) : Accessible within the class only
+
+
+syntax:
+
+class ParentClass {
+    // code
+};
+
+class ChildClass : access_modifier ParentClass {
+    // code
+};
+
+*/
