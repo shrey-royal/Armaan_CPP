@@ -10,14 +10,14 @@ public:
 
 class Dog : public Animal {
 public:
-    void makeSound() {
+    void makeSound() override {
         cout << "Bark Bark" << endl;
     }
 };
 
 class Cat : public Animal {
 public:
-    void makeSound() {
+    void makeSound() override {
         cout << "Meow Meow" << endl;
     }
 };
